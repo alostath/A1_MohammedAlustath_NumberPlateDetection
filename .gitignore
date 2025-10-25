@@ -1,0 +1,22 @@
+@"
+# Python / venv
+lp_env/
+venv/
+.env
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# VS Code
+.vscode/
+
+# Outputs/cache
+runs/
+*.log
+
+# OS
+Thumbs.db
+.DS_Store
+"@ | Out-File -Encoding UTF8 .gitignore
